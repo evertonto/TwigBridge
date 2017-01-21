@@ -116,9 +116,10 @@ class Loader implements Twig_LoaderInterface, Twig_ExistsLoaderInterface
     /**
      * {@inheritdoc}
      */
-    public function getSource($name)
+    public function getSourceContext($name)
     {
-        return $this->files->get($this->findTemplate($name));
+        $path = $this->findTemplate($name);
+        return new \Twig_Source(file_get_contents($path), $name, $path);
     }
 
     /**
