@@ -1,9 +1,13 @@
 {
-    "name": "rcrowe/twigbridge",
+    "name": "epsoftware/twig-bridge",
     "description": "Adds the power of Twig to Laravel",
-    "keywords": ["laravel", "twig"],
+    "keywords": ["laravel","lumen", "twig"],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Everton de Paula",
+            "email": "everton_to@live.com"
+        },
         {
             "name": "Rob Crowe",
             "email": "hello@vivalacrowe.com"
@@ -38,7 +42,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.10-dev"
+            "dev-master": "master-dev"
         }
     },
     "minimum-stability": "dev"
