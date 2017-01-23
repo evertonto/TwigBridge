@@ -7,21 +7,13 @@
         {
             "name": "Everton de Paula",
             "email": "everton_to@live.com"
-        },
-        {
-            "name": "Rob Crowe",
-            "email": "hello@vivalacrowe.com"
-        },
-        {
-            "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
         "twig/twig": "~2.0",
-        "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*",
-        "illuminate/view": "5.0.*|5.1.*|5.2.*|5.3.*"
+        "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*",
+        "illuminate/view": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*"
     },
     "require-dev": {
         "laravel/framework": "5.0.*",
@@ -38,11 +30,6 @@
         "psr-4": {
             "TwigBridge\\": "src",
             "TwigBridge\\Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "master-dev"
         }
     },
     "minimum-stability": "dev"

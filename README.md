@@ -15,7 +15,7 @@ If you need to support for Laravel 4.1/4.2 checkout out TwigBridge 0.6.x, or 0.5
 Require this package with Composer
 
 ```bash
-composer require rcrowe/twigbridge
+    composer require epsoftware/twig-bridge
 ```
 
 # Quick Start
@@ -33,7 +33,7 @@ Now find the alliases key, again towards the end of the file, and add 'Twig' => 
 
 ```php
 'aliases' => [
-    ... 
+    ...
                 'Twig' => TwigBridge\Facade\Twig::class,
 ],
 ```
@@ -54,7 +54,7 @@ Route::get('/', function () {
 });
 ```
 
-You can create the twig files in resources/views with the .twig file extension. 
+You can create the twig files in resources/views with the .twig file extension.
 ```bash
 resources/views/hello.twig
 ```
@@ -94,7 +94,7 @@ For Lumen, you need to load the same Service Provider, but you have to disable t
 Copy the `config/twigbridge.php` file to your local `config` folder and register the configuration + Service Provider in `bootstrap/app.php`:
 
 ```php
-$app->configure('twigbridge'); 
+$app->configure('twigbridge');
 $app->register('TwigBridge\ServiceProvider');
 ```
 
